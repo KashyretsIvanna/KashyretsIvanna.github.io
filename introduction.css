@@ -2,6 +2,15 @@
     margin: 0;
     font-family: fantasy;
 }
+a{
+    font-size: larger;
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(255, 154, 1);
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
 header{
     color: rgb(76, 121, 122);
     font-size: 60px;
@@ -12,7 +21,7 @@ header{
 }
 body{
 
-    background-color: aliceblue;
+    background-color: rgb(239, 250, 176);
 }
 
 .projects{
@@ -26,7 +35,17 @@ body{
     
 }
 .projects>*{
-    height: 80%;
-    width:200px;
+    height: 200px;
+    width:250px;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.329);
+    text-align: center;
+    
+}
+
+.projects>*>a{
+    
+}
+
+.projects>*:hover{
 
 }

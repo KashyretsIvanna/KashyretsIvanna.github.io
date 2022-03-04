@@ -1,0 +1,35 @@
+@media screen and (max-width:900px) {
+    textarea{
+        width: 100%;
+        
+
+    }
+    fieldset.vote{
+        
+        width:100%;
+    }
+    form{
+        width: 100%;
+    }
+    .formstyle{
+        width: 100%;
+    }
+    
+}
+
+    
+@media screen and (max-width:600px){
+    
+    .menu{
+        display: block;
+    }
+    
+    .menu>*{
+        width: 100%;
+    }
+    .formstyle{
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+}
