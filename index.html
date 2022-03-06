@@ -10,14 +10,90 @@
 </head>
 <body>
 
-    <header>My own projects and resume</header>
+    <header>
+        <div class="fixed">
+            
+            
+                    
+                    <ul class="menu">
+                        <li><a href="caffeine/index.html" style="color: darkorange;">Main</a></li>
+                        <li> <a href="caffeine/index.html">Caffeine</a></li>
+                        <li><a href="caffeine/index.html">Bootstrap</a></li>
+                        <li><a href="caffeine/index.html">3D-transformation</a></li>
+                        <li><a href="caffeine/index.html">React</a></li>
+                                           
+                    </ul>
+                    <button class="button">Write</button>
+            
+          
+            
+        </div>
+        <div class="headerP1">
+            <h6>Hello!</h6>
+            <h1> My own projects and resume</h1>
+            <h3>Freelance & Web-developer</h3>
+            <button class="button" onclick='myFunc()'>Write me</button>
+        </div>
+        <div class="headerP2">
+
+                                      
+            <img src="img/avatar2.jpg" class="avatar">
+         
+        </div>
+        
+        
+    </header>
+    <div class="container">
+    <div class="title"><h2>My projects</h2></div>
     <section class="projects">
-        <div><a href="ZadAndRot.github.io/caffeine">Project1</a>
-            <p>I created an cite which contains forms, modal windows, burger-menu , links, videos and other usefull facilities. I used CSS HTML and JS in order to create it</p>
+        
+        <div>            
+            <div>
+                <img id="img1" class='img' src="img/header.png">
+                <div id="modal1" class="modal">
+                    
+                    <button class="btnUnVisible" id="close1"><img class='cross' src="https://static.poshukach.com/imgpreview?key=3cfc432ea0d29eea&mb=imgdb_preview_888"></button>
+                    <h2>Caffeine</h2>
+                    <h5>Project contains modal windows, burger-menu, tables,wideos,forms..Created with HTML, CSS, JS</h5>
+                </div>
+            </div>
+            <button id="btnM1" class="buttonWhite button" onclick="myFunc()">CAFFEINE</button>
         </div>
-        <div><a href="ZadAndRot.github.io/caffeine">Project1</a>
+        <div>            
+            <div>
+                <img id="img2" class='img' src="img/header.png">
+                <div id="modal2" class="modal">
+                    
+                    <button class="btnUnVisible" id="close2"><img class='cross' src="https://static.poshukach.com/imgpreview?key=3cfc432ea0d29eea&mb=imgdb_preview_888"></button>
+                    <h2>Bootstrap</h2>
+                    <h5>Project created with bootstrap framework using bootstrap classes</h5>
+                </div>
+            </div>
+            <button id="btnM2" class="buttonWhite button" onclick="myFunc()">BOOTSTRAP</button>
         </div>
-        <div><a href="ZadAndRot.github.io/caffeine">Project1</a>
+        <div>            
+            <div>
+                <img id="img3" class='img' src="img/header.png">
+                <div id="modal3" class="modal">
+                    
+                    <button class="btnUnVisible" id="close3"><img class='cross' src="https://static.poshukach.com/imgpreview?key=3cfc432ea0d29eea&mb=imgdb_preview_888"></button>
+                    <h2>3D-transformation</h2>
+                    <h5>It is just page with animation and 3d-transformation CSS and HTML</h5>
+                </div>
+            </div>
+            <button id="btnM3" class="buttonWhite button" onclick="myFunc()">3D-TRANSFORMATION</button>
+        </div>
+        <div>            
+            <div>
+                <img id="img4" class='img' src="img/header.png">
+                <div id="modal4" class="modal">
+                    
+                    <button class="btnUnVisible" id="close4"><img class='cross' src="https://static.poshukach.com/imgpreview?key=3cfc432ea0d29eea&mb=imgdb_preview_888"></button>
+                    <h2>React.js</h2>
+                    <h5>It is React project with created components and state.Project is not complicated now but will be in soon</h5>
+                </div>
+            </div>
+            <button id="btnM4" class="buttonWhite button" onclick="myFunc()">REACT</button>
         </div>
         
     </section>
@@ -26,6 +102,7 @@
         <div></div>
         <div></div>
     </section>
+    </div>
     <footer>
         <div>
             <div></div>
@@ -33,6 +110,13 @@
         </div>
         <div></div>
     </footer>
+
+   
+    <script src="introduction.js"></script>
+    
+
+   
     
 </body>
+
 </html>
