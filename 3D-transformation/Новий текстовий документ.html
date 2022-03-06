@@ -1,0 +1,106 @@
+<html>
+<head>
+    <link href="3d.css" type="text/css" rel="stylesheet">
+    <style>
+    
+    </style>
+</head>
+<section id="section1">
+    <p>transform-style: flat;</p>
+  <div class="container style-flat">  
+       <div class="flip"></div>
+    </div>
+    <p>transform-style: preserve-3d;</p>  
+    <div class="container style-3d">    
+      <div class="flip"></div>
+    </div>
+</section>
+
+
+<section >
+    <p>perspective: 50px</p>
+    
+    <div id="section2">
+        <div class="perspective perspective1"></div>
+        <div class="perspective perspective1"></div>
+        <div class="perspective perspective1"></div>
+    </div>
+    
+</section>
+
+<section >
+    <p>perspective: none</p>
+    <div id="section3">
+        <div class="perspective perspective2"></div>
+        <div class="perspective perspective2"></div>
+        <div class="perspective perspective2"></div>
+    </div>
+    
+</section>
+<section >
+    <p>origin:bottom left</p>
+    
+    <div id="section4">
+        <div class="origin origin1"></div>
+        <div class="origin origin1"></div>
+        <div class="origin origin1"></div>
+    </div>
+    
+</section>
+
+<section >
+    <p>origin:top left</p>
+    <div id="section5">
+        <div class="origin origin2"></div>
+        <div class="origin origin2"></div>
+        <div class="origin origin2"></div>
+    </div>
+    
+</section>
+<section >
+    <p>origin:initial</p>    
+    <div id="section2">
+        <div class="perspective perspective1"></div>
+        <div class="perspective perspective1"></div>
+        <div class="perspective perspective1"></div>
+    </div>
+    
+</section>
+<section class="section6 ">
+    <p>backface-visibility:hidden</p>
+    <div class="container_rotated style-3d ">  
+       <div class="facehidden face"><p>Box1</p></div>
+    </div>
+    <p>backface-visibility:visible</p>
+    <div class="container_rotated style-3d" >  
+       <div class="face"><p>Box2</p></div>
+    </div>
+    
+</section>
+<section class="section6">
+    <p>translate3d(40px,40px,40px)</p>
+    <div class="container_rotated style-3d">
+        <div class="block translate1"></div>
+    </div>
+    
+    
+</section>
+<section class="section6">
+    <p>scale3d(1,2,2)</p>
+    <div class="container style-3d">
+        <div class="block scale3d"></div>
+    </div>
+    
+    
+</section>
+<section class="section6" >
+    <p>scale3d(1,1,1)</p>
+    <div class="container style-3d" >
+        <div class="block scale"></div>
+    </div>
+    
+    
+</section>
+
+</body>
+</html>

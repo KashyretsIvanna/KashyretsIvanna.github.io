@@ -282,8 +282,8 @@ margin: 10px;
     background-color: black;
     padding: 15px;
     min-width: 200px;
-    box-shadow: 0 6px 0 gray;
     border-bottom: dashed 3px black;
+    border-radius: ;
 }
 .menu_sub-list-1{
     opacity: 1;
@@ -644,8 +644,7 @@ div{
     display: flex;
     margin-left: -40px;
     height: 100%;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 .menu._active{
     transform: translate(0,0);

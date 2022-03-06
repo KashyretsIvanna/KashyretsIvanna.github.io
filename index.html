@@ -5,44 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="introduction.css" rel="stylesheet" type="text/css" >
+    <link href="media.css" rel="stylesheet" type="text/css" >
 
     <title>Document</title>
 </head>
 <body>
 
     <header>
+        
+
+
         <div class="fixed">
             
             
                     
-                    <ul class="menu">
-                        <li><a href="caffeine/index.html" style="color: darkorange;">Main</a></li>
-                        <li> <a href="caffeine/index.html">Caffeine</a></li>
-                        <li><a href="caffeine/index.html">Bootstrap</a></li>
-                        <li><a href="caffeine/index.html">3D-transformation</a></li>
-                        <li><a href="caffeine/index.html">React</a></li>
+            <ul class="menu">
+                <li><a href="caffeine/index.html" style="color: darkorange;">Main</a></li>
+                <li><a href="caffeine/affisha.html">Caffeine</a></li>
+                <li><a href="bootstrap/index.html">Bootstrap</a></li>
+                <li><a href="3D-transformation/Новий текстовий документ.html">3D-transformation</a></li>
+                <li><a href="caffeine/affisha.html">React</a></li>
                                            
-                    </ul>
-                    <button class="button">Write</button>
+            </ul>
+            <button class="button">Write</button>
+            <img src="img/pngwing.com.png" id="burger" class="burger">
             
           
             
         </div>
+
+
         <div class="headerP1">
             <h6>Hello!</h6>
             <h1> My own projects and resume</h1>
             <h3>Freelance & Web-developer</h3>
             <button class="button" onclick='myFunc()'>Write me</button>
         </div>
+
+
+
         <div class="headerP2">
 
                                       
             <img src="img/avatar2.jpg" class="avatar">
          
         </div>
+
+        <div id="burgerMenu" class="burgerMenu">
+            <ul >
+                <li><a href="caffeine/index.html" style="color: darkorange;">Main</a></li>
+                <li><a href="caffeine/affisha.html">Caffeine</a></li>
+                <li><a href="bootstrap/index.html">Bootstrap</a></li>
+                <li><a href="3D-transformation/Новий текстовий документ.html">3D-transformation</a></li>
+                <li><a href="caffeine/affisha.html">React</a></li>
+            </ul>
+        </div>
+
+        
+       
         
         
     </header>
+    
     <div class="container">
     <div class="title"><h2>My projects</h2></div>
     <section class="projects">
@@ -61,7 +85,7 @@
         </div>
         <div>            
             <div>
-                <img id="img2" class='img' src="img/header.png">
+                <img id="img2" class='img' src="img/bootstrap.png">
                 <div id="modal2" class="modal">
                     
                     <button class="btnUnVisible" id="close2"><img class='cross' src="https://static.poshukach.com/imgpreview?key=3cfc432ea0d29eea&mb=imgdb_preview_888"></button>
@@ -104,11 +128,47 @@
     </section>
     </div>
     <footer>
-        <div>
-            <div></div>
-            <div></div>
+        <div style="text-align: left;">
+        <h2 style="text-align:left">Contacts</h2>
+        <h6>You will find us in the heart of Kiev. Are waiting for you!</h6>
         </div>
-        <div></div>
+        <div class="nav" style="justify-content: space-around;">
+            <div>
+                <h2>Information</h3>
+                <p><a href="pages/about.html" target="_blank" title="Про наше кафе" class=" footer">Caffee</a></p>
+                <p><a href="pages/caffeine.html" target="_blank" title="Головна" class=" footer">Caffeine</a></p>
+                <p><a href="affisha.html" target="_blank" title="Події" class=" footer">Afisha</a></p>
+                <p><a href="form.html" target="_blank" title="Замовлення" class=" footer">Order</a></p>
+                <p><a href="index.html" target="_blank" title="Головна" class="textdecor footer colored">Main</a></p>
+            </div>
+            <div>
+                <h2>We are in touch</h2>
+                <div style="display: flex;justify-content: center;align-items: center;">       
+                <a href="https://www.instagram.com/ka_ivanka1/?h1=ru" target="_blank" title="Instagram"><img src="img/icons/insta.png" class="icons" alt="" ></a>
+                <a href="https://www.facebook.com/ivanka.kashirets/?h1=ru"><img src="img/icons/facebook.png" title="Facebook" class="icons" alt="" style="border-radius: 50%;"></a>
+                <a href="skype:https://join.skype.com/invite/BfCcuXZGn1Er?chat" target="_blank" title="Написати повідомлення"><img src="img/icons/skype.png" class="icons" alt="" ></a>
+                <a href="skype:https://join.skype.com/invite/BfCcuXZGn1Er?call" target="_blank" title="Зателефонувати у скайп"><img src="img/icons/call2.png" class="icons" alt="" ></a>
+                <a href="mailto:kasirecivanna@gmail.com?subject=Important" title="Написати лист"><img src="img/icons/gmail.png" class="icons" alt="" ></a>
+                <a href="tell:+380969875235"><img src="img/icons/call1.png"  title="Зателефонувати" class="icons" alt="" style="border-radius: 50%;background-color: white;"></a>
+                </div>
+            </div>
+            <div>
+                <form>
+                    <fieldset class="submit">
+                        
+                    
+                        <label for="submit" class="label">E-mail</label>
+                        <input type="email" name="submit" id="submit">
+                        <button type="submit" class="button">Підписатися</button>
+                        
+                    </fieldset>
+    
+                </form>
+            </div>
+        
+        
+        
+        </div>
     </footer>
 
    

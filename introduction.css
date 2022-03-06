@@ -10,19 +10,51 @@ p,h6{
 }
 h6{
     text-align: center;
-    color: rgb(32, 34, 54);
+    
+    
     
 }
 h1{
     font-size: 60px;
     color: rgb(255, 154, 1);
+    animation-name: h1Anim;
+    animation-duration: 1s;
     
+}
+@keyframes h1Anim{
+    0%{
+        margin-top: -50px;
+        margin-left: -100px;
+    }
+    100%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
 }
 h3{
     font-size: 30px;
+    animation-name: h3Anim;
+    animation-duration: 1s;
+    
+    
     
     
 }
+@keyframes h3Anim{
+    0%{
+        margin-bottom: -50px;
+        margin-left: -70px;
+    }
+    100%{
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+}
+footer h2{
+    color: darkorange;
+}
+
+footer{background-color: black;}
 .title{
     text-align: center;
     padding: 30px;
@@ -35,6 +67,8 @@ h3{
 .container{
     max-width: 1300px;
     margin: 0 auto;
+    box-sizing: content-box;
+    
 }
 .headerP1{
     width: 70%;
@@ -49,7 +83,7 @@ h3{
     
 }
 .headerP2{
-    width: 50%;
+    width: 20%;
     background-color: rgb(32, 35, 70);
     padding: 125px;
     height:200px;
@@ -70,9 +104,20 @@ header{
     left:-250px;
     box-shadow: 10px 10px 5px black;
     opacity: 0.7;
+    animation-name: avatarAnim;
+    animation-duration: 1s;
+    animation-delay: 200ms;
     
 }
+@keyframes avatarAnim{
+    0%{
+        margin-right: -200px;
 
+    }
+    100%{
+        margin-right: 0px;
+    }
+}
 link{
     font-size: larger;
     text-decoration: none;
@@ -100,20 +145,26 @@ header{
 body{
 
     background-color: rgb(196, 195, 182);
+    background-image: url(img/earth.png);
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    
+    
 }
 @keyframes projectsAnim{
     0%{
-        margin-right: -20px;
+        margin-right: -100px;
 
     }
-    100%{margin-right: 0;}
+    100%{margin-right: 25;}
 }
 .projects{
     display: flex;
     justify-content:center;
     align-items: center;
     width: 100%;
-    height: 550px;
+    height: auto;
     
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -252,6 +303,37 @@ body{
     
 
 }
+.burgerMenu{
+    opacity: 0;
+    position: absolute;
+    top:50px;
+    right: 0;
+    background-color: black;
+    padding: 15px;
+    border-bottom: dashed 3px black;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    z-index: 0;
+    border: 4px double rgb(42, 47, 75);
+
+}
+.burgerMenuVisible{
+    opacity: 1;
+    animation-name: menuVis;
+    animation-duration: 1s;
+
+}
+@keyframes menuVis{
+    0%{
+        top:0px;
+    }
+    100%{
+        top:50px
+    }
+}
+.burger{
+    display: none;
+}
 li>a{
     
     color: rgb(91, 93, 94);
@@ -295,4 +377,79 @@ a:active{
     
     box-shadow: none;
     
+}
+ol.nav > li >b> a.textdecor{
+    color: #fceb04;
+}
+.footer.textdecor.colored{
+    color: #fceb04;
+}
+ol.nav > li >b> a{
+    padding: 0 15px;
+    height: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 100ms ease-in-out;
+    transition-property: color;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color:rgb(136, 116, 125);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 80px;
+}
+ol.nav > li >b> a:hover{
+    color: rgb(248, 214, 122);
+}
+ol.nav > li >b> a:focus{
+    color: rgb(22, 47, 102);
+}
+.nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.navbar{
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+    height: 100px;
+    box-sizing: border-box;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    filter: drop-shadow(5px 5px 10px rgb(70, 68, 68));
+    box-shadow:10px 10px 10px rgb(14, 13, 13);
+   
+    
+}
+*{margin: 0%;}
+section{
+    padding: 100px 0px 100px 0px;
+}
+ol{
+    list-style-type: none;
+}
+.textdecor{
+    color:rgb(250, 174, 10);
+}
+.footer{
+    color: gray;
+}
+.footer:hover{
+    color:rgb(250, 184, 4);
+}
+.footer:focus{
+    color:rgb(53, 6, 163);
+}
+
+footer{padding:100px}
+.submit{
+    border: none;
+    background-color: black;
+}
+.icons{
+    height: 30px;
+    width: 30px;
 }

@@ -85,6 +85,12 @@ for(i=0;i<4;i++){
     }
 
 }
+
+const burger=document.getElementById('burger')
+const burgerMenu=document.getElementById('burgerMenu')
+burger.addEventListener('click',()=>{
+    burgerMenu.classList.add('burgerMenuVisible')
+})
     
         
            
