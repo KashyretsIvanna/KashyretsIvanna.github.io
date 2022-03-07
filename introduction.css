@@ -449,6 +449,9 @@ footer{padding:100px}
     border: none;
     background-color: black;
 }
+#submit{
+    width: 137px;
+}
 .icons{
     height: 30px;
     width: 30px;
