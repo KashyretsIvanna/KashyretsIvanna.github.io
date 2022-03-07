@@ -4,9 +4,10 @@
 }
 p,h6{
     text-align: justify;
-    color: rgb(46, 28, 51);
+    color: rgb(32, 34, 54);
     font-size: 15px;
     font-weight: 100;
+    padding-top: 50px;
 }
 h6{
     text-align: center;
@@ -321,6 +322,7 @@ body{
     opacity: 1;
     animation-name: menuVis;
     animation-duration: 1s;
+    z-index: 999;
 
 }
 @keyframes menuVis{
